@@ -1,0 +1,14 @@
+.color-option{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.color-option span{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,61 @@
+.note-poster{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  /* border: 1px solid black; */
+  border-radius: 0px;
+  background-color: white;
+  box-shadow: 3px 3px grey;
+}
+
+.note-poster textarea{
+  /* display: flex; */
+  width: 95%;
+  display: flex;
+  /* background-color: red; */
+  /* outline-color: none; */
+  /* border-left: 1px solid black; */
+  /* box-shadow: 0px 0px black; */
+  vertical-align: top;
+  /* margin-top: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  /* padding-left: 20px; */
+  /* border-radius: 0px; */
+  border: white solid 1px;
+  resize: none;
+  /* margin: 0 auto; */
+}
+
+.post-function{
+  position: relative;
+  background-color: white;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post-function input{
+  border: none;
+  background-color: limegreen;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  border-radius: 17px;
+  height: 50px;
+  width: 70px;
+  right: 2%;
+}
+
+.post-function .colors{
+  left: 2%;
+  position: absolute;
+  height: 70px;
+  width: 70%;
+  min-width: 90px;
+  /* overflow-y: hidden; */
+  overflow-x: auto;
+  /* overflow-x: auto; */
+}
